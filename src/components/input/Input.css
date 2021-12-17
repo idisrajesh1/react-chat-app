@@ -1,0 +1,30 @@
+.form {
+  display: flex;
+ 
+  width: 99%;
+}
+
+.input {
+  border: none;
+  border-radius: 0;
+  padding: 5% 5% 5% 0;
+  width: 100%;
+  font-size: 1.2em;
+  display: flex;
+}
+
+.input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+.sendButton {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #2979FF;
+  padding: 20px;
+  display: inline-block;
+  border: none;
+  width: 20%;
+}
+

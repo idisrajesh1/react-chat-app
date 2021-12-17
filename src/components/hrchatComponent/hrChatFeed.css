@@ -1,0 +1,23 @@
+.message-outerContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.messageListContainer{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.message-header{
+    font-size: medium;
+    font-weight: 500;
+}
+
+.fontBold > td {
+    font-weight: 600;
+}
+
+.border-bottom{
+    border-bottom: 1px solid black;
+}

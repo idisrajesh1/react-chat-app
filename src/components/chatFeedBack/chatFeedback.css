@@ -1,0 +1,31 @@
+.chatFeed-outer{
+    display: flex;
+    height: 100vh;
+    background-color: #1A1A1D;
+}
+
+.chatFeed-left-container{
+    flex:1;
+    background-color: white;
+    z-index: 1;
+}
+
+.chatFeed-right-container{
+    flex: 5;
+}
+
+.userChat-outer{
+    display: flex;
+    padding: 0.4em;
+    height: 3.4em;
+    border-bottom: 1px solid rgb(83, 78, 78);
+    cursor: pointer;
+}
+.user-container{
+    display: flex;
+}
+
+.user-text-container{
+    display: flex;
+    flex-direction: column;
+}
